@@ -8,9 +8,9 @@
     <title>Cats</title>
 </head>
 <body>
-    <header class = "navbar">
+    <header class = "navbar" id = "navbar">
         <div class = "left">
-            <h3>About</h3>
+            <h3 id = "abt">About</h3>
             <h3 class = "lang">Lang</h3>
             <select id="lang" name="lang">
                 <option value="en">en</option>
@@ -20,7 +20,7 @@
         </div>
             <h1>Haloween Kitties</h1>
         <div class = "right">
-            <h3>Products</h3>
+            <h3><a href = "#products">Products</a></h3>
             <h3>Vidoes</h3>
             <h3>SignUp</h3>
         </div>
@@ -84,6 +84,24 @@
         </div>
     </main>
 
+    <div class="pricing" id = "products">
+        <img src = "imgs/left-arrow.png" alt = "left-arrow" class = "arrow">
+        <div class="items">
+            <img src = "imgs/1.jpg" class = "prod-img">
+            <div class="data">
+                <h2 class = "prod-head">Lion Cat Costume</h2>
+                <div class = "btn">BUY NOW at $13</div>
+                <p class = "prod-desc">
+                    This impossibly cute lion mane has nearly 200 five-star ratings for a reason, and it’s not just because it’s an easy costume. One look at all the 
+                    reviewer photos, and you’ll see average tabby units transform right before your eyes into the fiercest Simbas in the savannah. Watch your feline 
+                    saunter around like they own the place and post up by the window in search of a tasty zebra. 
+                </p>
+            </div>
+        </div>
+        <img src = "imgs/right-arrow.png" alt = "right-arrow" class = "arrow">
+    </div>
+
+    <a href = "#navbar"><img src = "imgs/up-arrow.png" class = "arrow go-up"></a>
 </body>
 <script src="app.js"></script>
 </html>

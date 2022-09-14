@@ -5,6 +5,11 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 181, 43);
+}
+
 body {
     background-color: #232023;
     display: flex;
@@ -131,4 +136,81 @@ h3:active {
 .point p {
     line-height: 1.6;
     text-align: center;
+}
+
+/* about interactivity */
+
+.pricing {
+    display: flex;
+    gap: 25px;
+    width: 70vw;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.arrow {
+    width: 60px;
+    transition: 200ms;
+}
+
+.arrow:active {
+    transform: scale(0.85);
+}
+
+.items {
+    display: flex;
+    gap: 25px;
+    background-color: #302c2f;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.prod-img {
+    width: 24vw;
+    border-radius: 10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.prod-head {
+    font-size: 30px;
+    color: rgb(255, 181, 43);
+    text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 16px;
+    border: 2px solid rgb(255, 181, 43);
+    border-radius: 25px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 181, 43);
+    color: #302c2f;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.prod-desc {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.go-up {
+    transform: scale(0.7);
+    position: fixed;
+    left: 1vw;
+    bottom: 2vh;
 }
