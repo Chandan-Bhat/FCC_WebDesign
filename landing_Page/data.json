@@ -1,5 +1,36 @@
 {
-    "id": 1,
-    "title": "Hello World",
-    "completed": false
+    "1" : {
+        "src" : "imgs/1.jpg",
+        "head" : "=Lion Cat Costume",
+        "price" : 13,
+        "desc" : "This impossibly cute lion mane has nearly 200 five-star ratings for a reason, and it’s not just because it’s an easy costume. One look at all the reviewer photos, and you’ll see average tabby units transform right before your eyes into the fiercest Simbas in the savannah. Watch your feline saunter around like they own the place and post up by the window in search of a tasty zebra."
+    },
+
+    "2" : {
+        "src" : "imgs/2.jpg",
+        "head" : "Christmas Tree Cat Costume",
+        "price" : 11,
+        "desc" : "Skipping ahead a couple of months never hurt anyone. Festive is festive, right? Plus, if you dress yourself and your pets up for Halloween in a costume that fits other holidays, you'll get more use out of it. Make spirits bright from October through December with this adorable cat Christmas tree costume."
+    },
+
+    "3" : {
+        "src" : "imgs/3.jpg",
+        "head" : "Bat Cat Costume",
+        "price" : 8,
+        "desc" : "If you’re throwing a Halloween party you want to be more spooky than cheesy, pull out the big guns with these bat wings for your kitty, and your fluffy ghoul will set the eerie vibe for you. Cut to halfway through the festivities when your guests startle as your cat barrels down the hall like a bat out of hell (and looking the part, for once) on their nightly sprints to nowhere. How bewitching!"
+    },
+
+    "4" : {
+        "src" : "imgs/4.png",
+        "head" : "Barista Cat Costume",
+        "price" : 7,
+        "desc" : "Coffee lovers, treat yourself to a little extra catfeine on Halloween with a kitty cat that dons a barista apron. Make it a double espresso by getting dressed up with them in a costume inspired by your go-to order. A frappuccino, perhaps? Or a Pumpkin Spice Latte? Or trade places, and you can be the barista, and your furry child can be the donut and latte."
+    },
+
+    "5" : {
+        "src" : "imgs/5.jpg",
+        "head" : "Princess Cat Costume",
+        "price" : 13,
+        "desc" : "You’ve always suspected your kitty was a blue blood, what with their demand for the most expensive salmon on the shelf and their general snobbery towards other animals (peasants!). Now it’s time to validate their royal entitlement with this crown and luxe collar to treat them like the princess they are. Have a cat that’s half Queen Elizabeth, half George Constanza? Opt instead to drape their floof in velvet with this majestic made-to-order cloak. "
+    }
 }

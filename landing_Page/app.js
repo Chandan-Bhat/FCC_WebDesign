@@ -1,5 +1,4 @@
-fetch("data.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
+let dat
+fetch("data.json").then(response => response.json).then((data) => {dat = data})
+
+console(dat["1"].head)
