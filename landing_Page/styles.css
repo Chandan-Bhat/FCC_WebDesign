@@ -124,7 +124,7 @@ h3:active {
     gap: 20px;
     padding: 30px 25px;
     align-items: center;
-    border-bottom: 3px solid #181718 ;
+    border-bottom: 4px solid #181718 ;
 }
 
 .point img {
@@ -145,7 +145,7 @@ h3:active {
     gap: 25px;
     width: 70vw;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: white;
 }
 
@@ -166,7 +166,12 @@ h3:active {
     border-radius: 10px;
 }
 
-.prod-img {
+.inactive {
+    display: none;
+}
+
+.active {
+    display: inline;
     width: 24vw;
     border-radius: 10px;
 }
@@ -205,12 +210,43 @@ h3:active {
 
 .prod-desc {
     text-align: center;
+    font-size: 17px;
     line-height: 1.2;
 }
 
 .go-up {
     transform: scale(0.7);
     position: fixed;
-    left: 1vw;
-    bottom: 2vh;
+    left: 0.5vw;
+    bottom: 7vh;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(240, 175, 47, 0.715);
+    padding-top: 5px;
+    padding-bottom: 1px;
+    gap: 20px;
+}
+
+footer span {
+    margin-top: 8px;
+}
+
+footer img {
+    width: 38px;
+    transition: 200ms;
+}
+
+#ghub {
+    width: 32px;
+    margin-top: 2px;
+}
+
+footer img:hover {
+    transform: scale(1.15);
 }
